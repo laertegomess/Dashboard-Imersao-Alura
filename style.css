@@ -1,0 +1,54 @@
+/* Estilo visual do dashboard em modo dark */
+
+.stApp {
+    background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+    color: #f8fafc;
+}
+
+.stApp h1,
+.stApp h2,
+.stApp h3,
+.stApp h4,
+.stApp p,
+.stApp span,
+.stApp label,
+.stApp .stMarkdownContainer,
+.stApp [data-testid="stMetric"] {
+    color: #f8fafc !important;
+}
+
+.stApp h1,
+.stApp h2,
+.stApp h3 {
+    color: #8ec5ff !important;
+}
+
+.stSidebar {
+    background-color: #111827;
+    color: #f8fafc;
+}
+
+.stSidebar * {
+    color: #f8fafc !important;
+}
+
+div[data-testid="stMetric"] {
+    background-color: #1f2937;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.stDataFrame, .stTable {
+    background-color: #1f2937;
+    color: #f8fafc;
+}
+
+.stDownloadButton > button,
+.stButton > button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+
